@@ -3,7 +3,7 @@ student= ["Mew", 2, 14.7]
 print("your marks is: "+ str(student[2]))
 print("your name is: "+ str(student[0]))
 
-
+#list methods
 listing= [4, 2, 6, 2]
 print("your list is: " + str(listing))
 
@@ -33,6 +33,7 @@ print("your 5 is: " + str(b)+" times")
 tup=(1, 2, 3, 4, 6, 7, 6, 2, 6,)
 print("your tuple is: " + str(tup))
 
+#tuple method
 x= tup.count(6)
 print(x)
 print(tup.index(6))
@@ -45,3 +46,12 @@ print("your tuple is: " + str(tup))
 tup2= ('t','h','o','v','e','u')
 lst=list(tup2)
 print("your list is: " + str(lst))
+
+#take input from user using loop
+l=[]
+size=int(input("enter the size of the list: "))
+
+for i in range(size):
+    x=int(input("enter the elements: "))
+    l.append(x)
+print(l)
