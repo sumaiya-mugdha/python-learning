@@ -1,8 +1,8 @@
 # #function
-# def convertion(usd):
-#     return print(usd*122.18)
-#
-# convertion(float(input("Enter a number: ")))
+def convertion(usd):
+    return print(usd*122.18)
+
+convertion(float(input("Enter a number: ")))
 
 
 #recursion-factorial
@@ -15,4 +15,3 @@ def factorial(n):
     print(factorial(n))
 
 factorial(int(input("Enter a number: ")))
-

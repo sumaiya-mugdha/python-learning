@@ -7,6 +7,7 @@ info={
     "subjects":["python","c", "java"], #can access list and tuple
     30: 20
 }
+print(info["subjects"][0][0])
 print(info)
 print(type(info))
 print(info["name"])
@@ -32,6 +33,7 @@ print(student["marks"]["physics"]) ###for nested dictionary element
 print(len(student))
 print(list(student.keys()))  ###store it like list
 print(student.values())
+print(type(student.values()))
 print((student.items()))  ###store it like tuple
 pair= (list(student.items()))   ##can store and access like this also
 print(pair[0])
@@ -51,6 +53,5 @@ students = {
 for student in students.values():
     if student["marks"] > 80:
         print(student["name"])
-
 
 
